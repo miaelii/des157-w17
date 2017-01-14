@@ -1,0 +1,76 @@
+@charset "UTF-8";
+* {
+margin: 0;
+padding: 0;
+}
+
+body{
+  text-align: center;
+  font-family: Avenir, sans-serif;
+  background-color: #78A66B;
+
+}
+header{
+  width:800px;
+  margin:36px auto;
+}
+h1{
+font-size: 26pt;
+font-weight: lighter;
+letter-spacing: 8px;
+color: #A66B75
+
+}
+h2{
+  text-decoration: none;
+  font-size: 20pt;
+  color: black;
+  font-weight: lighter;
+}
+h3{
+  text-align: left;
+  font-size: 20pt;
+  font-weight: lighter;
+}
+li{
+  list-style-type: none;
+  text-align: left;
+}
+li img {
+    width: 32px;
+    height: 32px;
+}
+
+.exercises{
+  float: left;
+
+    padding:2%;
+    width: 22.66%;
+    margin-left: 5%;
+
+}
+.studios{
+  float: left;
+
+  padding:2%;
+  width: 22.66%;
+  margin-left: 5%;
+
+}
+.projects{
+  float:left;
+
+
+  padding:2%;
+  width: 22.66%;
+  margin-left: 5%;
+}
+footer{
+padding-left: 5%;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  background-color: #42633C;
+
+
+}
