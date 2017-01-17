@@ -1,40 +1,75 @@
 * {
-margin: 0;
+margin-top: 0;
+margin-bottom: 0;
 padding: 0;
+
 }
 
 body{
-  text-align: center;
-  font-family: Avenir, sans-serif;
+font-family: 'Quicksand', sans-serif;
+  font-size: 16pt;
   color: black;
   background: url(texture.png) repeat;
 background-size: contain;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+}
+section{
+
+  margin-bottom:50px;
+text-align: center;
+margin-left: auto;
+margin-right: auto;
 }
 
 p{
   width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: justify;
+  padding-bottom: 25px;
+}
+img{
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 15px;
 }
 
 h1{
 font-size: 26pt;
 font-weight: lighter;
-position: absolute;
+width: 500px;
 top: 10px;
-right: 10px;
-font-size: 28pt;
+padding-top: 30px;
+padding-bottom: 30px;
+font-size: 30pt;
 font-weight: lighter;
-letter-spacing: 8px;
-color: #A66B75
-
-
-
+text-align: center;
+letter-spacing: 16px;
+margin-left: auto;
+margin-right: auto;
+color: #A66B75;
 }
-section{
-  margin-top: 30%;
-  padding-left: 10%;
-  padding-right: 10%;
+
+hr{
+  width: 500px;
+  display: block;
+  border-style: solid;
+  border-width: light;
+color: #A66B75;
+}
+footer{
+  width: 500px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+footer p{
   text-align: right;
 }
-header img{
-  width: 100%;
+div:hover{
+  opacity: 0.5;
+   filter: alpha(opacity=50); /* For IE8 and earlier */
 }

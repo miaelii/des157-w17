@@ -6,9 +6,9 @@ padding: 0;
 
 body{
   text-align: center;
-  font-family: Avenir, sans-serif;
-  background-color: #78A66B;
-
+font-family: 'Share Tech Mono', monospace;
+background: url(twinkle_twinkle.png) repeat;
+background-size: contain;
 }
 header{
   width:800px;
@@ -18,19 +18,20 @@ h1{
 font-size: 26pt;
 font-weight: lighter;
 letter-spacing: 8px;
-color: #A66B75
-
+color: #1EFF00;
 }
 h2{
   text-decoration: none;
   font-size: 20pt;
-  color: black;
+  color: #1EFF00;
   font-weight: lighter;
+  text-align: left;
 }
 h3{
   text-align: left;
   font-size: 20pt;
   font-weight: lighter;
+  padding-bottom: 7px;
 }
 li{
   list-style-type: none;
@@ -40,7 +41,9 @@ li img {
     width: 32px;
     height: 32px;
 }
-
+section{
+  padding-top: 15px;
+}
 .exercises{
   float: left;
 
@@ -51,7 +54,6 @@ li img {
 }
 .studios{
   float: left;
-
   padding:2%;
   width: 22.66%;
   margin-left: 5%;
@@ -59,8 +61,6 @@ li img {
 }
 .projects{
   float:left;
-
-
   padding:2%;
   width: 22.66%;
   margin-left: 5%;
@@ -70,7 +70,8 @@ padding-left: 5%;
   position: absolute;
   width: 100%;
   bottom: 0;
-  background-color: #42633C;
-
+  color: #1EFF00;
+  background-color: black;
+  padding-bottom: 15px;
 
 }
